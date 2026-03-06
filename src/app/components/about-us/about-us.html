@@ -1,1 +1,33 @@
-<p>about-us works!</p>
+<section class="about-section">
+        <div class="container">
+            <div class="about-wrapper">
+                <div class="about-content">
+                    <h2>ABOUT <span>US</span></h2>
+                    <h3>Digital Bond</h3>
+                    <p>We are a fully integrated digital marketing agency, combining creativity and technology to provide our clients with innovative solutions that help them grow and excel in the digital world.</p>
+                    <p>Our team of experts and specialists works passionately to turn your ideas into reality, through customized strategies that fit the vision of each brand.</p>
+                    <p>Our goal is to build long-term partnerships with our clients, based on trust and impressive results that speak for themselves.</p>
+                </div>
+                <!-- Images (Exactly as you provided) -->
+                <div class="about-images">
+                    <img src="https://i.pinimg.com/1200x/1d/f1/8d/1df18d85115e3137b1989b7cc5889d42.jpg" alt="Digital Bond Team Work">
+                    <img src="https://i.pinimg.com/736x/52/fe/b1/52feb17f8fe1f44e36b5172e6637a82b.jpg" alt="Digital Bond Creative">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="numbers-section">
+        <div class="container">
+            <h2>DIGITAL BOND <span>IN NUMBERS!</span></h2>
+            <div class="stats-grid">
+                @for (item of stats; track item.id) {
+                    <div class="stat-item">
+                        <div class="stat-number">{{ item.current }}+</div>
+                        <div class="stat-label">{{ item.label }}</div>
+                    </div>
+                }
+
+            </div>
+        </div>
+    </section>
