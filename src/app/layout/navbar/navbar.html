@@ -1,1 +1,28 @@
-<p>navbar works!</p>
+<nav class="navbar" >
+  <div class="logo"> 
+     <img 
+  [src]="menuOpen ? 'logo.webp' : 'logo.png'" 
+  alt="logo" 
+  class="logo-image"    
+/>
+  </div>
+
+  <div class="burger" [class.active]="menuOpen" (click)="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</nav>
+
+<div class="side-menu" [class.active]="menuOpen">
+  <ul>
+    <li><a (click)="closeMenu()" >About</a>
+    </li>
+    <li><a (click)="closeMenu()" >Our Services</a>
+    </li>
+    <li><a (click)="closeMenu()" > Reviews </a>
+    </li>
+    <li><a (click)="closeMenu()" >Contact</a>
+    </li>
+  </ul>
+</div>

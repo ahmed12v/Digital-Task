@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --waite-color: rgba(255, 255, 255, 1);
+  --main-color: #ab0202;
+  --gray-color: #dbdbdbe0;
+  --black-color:#000000;
+}
+
+
+
