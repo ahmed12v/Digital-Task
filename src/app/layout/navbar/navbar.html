@@ -16,13 +16,17 @@
 
 <div class="side-menu" [class.active]="menuOpen">
   <ul>
-    <li><a (click)="scrollTo('about-section') ; closeMenu()" >About</a>
+    <li>
+      <button class="pointer" (click)="scrollTo('about-section'); closeMenu()">About</button>
     </li>
-    <li><a (click)="scrollTo('services-section') ; closeMenu()" >Our Services</a>
+    <li>
+      <button class="pointer" (click)="scrollTo('services-section'); closeMenu()">Our Services</button>
     </li>
-    <li><a (click)="scrollTo('reviews-section') ; closeMenu()" > Reviews </a>
+    <li>
+      <button class="pointer" (click)="scrollTo('reviews-section'); closeMenu()">Reviews</button>
     </li>
-    <li><a (click)="scrollTo('contact-section') ; closeMenu()" >Contact</a>
+    <li>
+      <button class="pointer" (click)="scrollTo('contact-section'); closeMenu()">Contact</button>
     </li>
   </ul>
 </div>

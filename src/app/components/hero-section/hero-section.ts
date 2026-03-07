@@ -7,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrl: './hero-section.css',
 })
 export class HeroSection {
-
+   scrollToServices() {
+  const element = document.getElementById('services-section');
+  if(element) {
+    element.scrollIntoView({ behavior: 'smooth' });
+  }
+}
 }

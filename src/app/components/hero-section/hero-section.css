@@ -43,6 +43,7 @@
     }
 
     .btn-hero {
+      border: none;
       padding: 1rem 2rem;
       font-size: 1.2rem;
       background-color: var(--main-color);
@@ -67,7 +68,9 @@
       justify-content: center;
       gap: 1.5rem;
 
-      a {
+      button {
+        background: none;
+        border: none;
         font-size: 1.8rem;
         color: var(--waite-color);
         transition:
@@ -105,7 +108,7 @@
       font-size: 1.1rem !important;
       padding: 0.9rem 1.8rem !important;
     }
-    .social-icons a {
+    .social-icons button {
       font-size: 1.5rem !important;
     }
   }
@@ -123,7 +126,7 @@
       font-size: 1rem !important;
       padding: 0.8rem 1.5rem  !important;
     }
-    .social-icons a {
+    .social-icons button {
       font-size: 1.3rem !important;
     }
   }
@@ -141,7 +144,7 @@
       font-size: 0.9rem !important;
       padding: 0.7rem 1.2rem !important;
     }
-    .social-icons a {
+    .social-icons button {
       font-size: 1.1rem !important;
     }
   }
