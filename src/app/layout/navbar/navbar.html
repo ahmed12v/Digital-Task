@@ -16,13 +16,13 @@
 
 <div class="side-menu" [class.active]="menuOpen">
   <ul>
-    <li><a (click)="closeMenu()" >About</a>
+    <li><a (click)="scrollTo('about-section') ; closeMenu()" >About</a>
     </li>
-    <li><a (click)="closeMenu()" >Our Services</a>
+    <li><a (click)="scrollTo('services-section') ; closeMenu()" >Our Services</a>
     </li>
-    <li><a (click)="closeMenu()" > Reviews </a>
+    <li><a (click)="scrollTo('reviews-section') ; closeMenu()" > Reviews </a>
     </li>
-    <li><a (click)="closeMenu()" >Contact</a>
+    <li><a (click)="scrollTo('contact-section') ; closeMenu()" >Contact</a>
     </li>
   </ul>
 </div>
