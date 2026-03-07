@@ -1,8 +1,9 @@
 import { ChangeDetectionStrategy, Component, HostListener } from '@angular/core';
+import { ScrollRevealDirective } from '../../shared/directives/danimation';
 
 @Component({
   selector: 'app-about-us',
-  imports: [],
+  imports: [ScrollRevealDirective],
   templateUrl: './about-us.html',
   styleUrl: './about-us.css',
   changeDetection: ChangeDetectionStrategy.OnPush,

@@ -31,7 +31,7 @@ export class ScrollRevealDirective implements AfterViewInit {
           this.renderer.addClass(this.el.nativeElement, 'hidden');
         }
       });
-    }, { threshold: 0.4 });
+    }, { threshold: 0.2 });
 
     observer.observe(this.el.nativeElement);
   }
