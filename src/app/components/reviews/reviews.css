@@ -109,7 +109,7 @@
   box-shadow: 0 5px 10px rgba(171, 2, 2, 0.3);
 }
 
-.client-details h4 {
+.client-details h3 {
   font-size: 1.1rem;
   font-weight: 700;
   color: var(--black-color);

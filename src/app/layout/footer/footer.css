@@ -22,14 +22,11 @@
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--waite-color);
-  letter-spacing: 1px;
 }
 
 .footer-logo span {
-  color: rgba(255, 255, 255, 0.7);
-  font-weight: 300;
+  color: rgba(255,255,255,0.85);
   font-size: 0.9rem;
-  display: block;
 }
 
 .footer-links {
@@ -39,16 +36,13 @@
 }
 
 .footer-links a {
-  color: var(--waite-color);
+  color: rgba(255,255,255,0.9);
   text-decoration: none;
   font-size: 0.95rem;
-  font-weight: 400;
   transition: all 0.3s ease;
-  opacity: 0.9;
 }
 
 .footer-links a:hover {
-  opacity: 1;
   transform: translateY(-2px);
   text-decoration: underline;
 }
@@ -61,13 +55,12 @@
 .footer-social a {
   width: 36px;
   height: 36px;
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255,255,255,0.15);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--waite-color);
-  text-decoration: none;
   font-size: 1.2rem;
   transition: all 0.3s ease;
 }
@@ -81,19 +74,16 @@
 .footer-bottom {
   margin-top: 2rem;
   padding-top: 1.5rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
-  text-align: center;
+  border-top: 1px solid rgba(255,255,255,0.2);
   font-size: 0.9rem;
-  opacity: 0.8;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 
 .footer-bottom p {
-  color: var(--waite-color);
+  color: rgba(255,255,255,0.9);
 }
 
 .footer-bottom-links {
@@ -102,53 +92,16 @@
 }
 
 .footer-bottom-links a {
-  color: var(--waite-color);
+  color: rgba(255,255,255,0.85);
   text-decoration: none;
-  font-size: 0.85rem;
-  opacity: 0.8;
-  transition: opacity 0.3s ease;
 }
 
 .footer-bottom-links a:hover {
-  opacity: 1;
   text-decoration: underline;
 }
 
-/* Responsive Footer */
-@media (max-width: 768px) {
-  .footer-content {
-    flex-direction: column;
-    text-align: center;
-    gap: 1.5rem;
-  }
 
-  .footer-links {
-    justify-content: center;
-    gap: 1.2rem;
-  }
-
-  .footer-social {
-    justify-content: center;
-  }
-
-  .footer-bottom {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .footer-bottom-links {
-    justify-content: center;
-  }
-}
-
-@media (max-width: 480px) {
-  .footer-links {
-    flex-direction: column;
-    gap: 0.8rem;
-  }
-
-  .footer-bottom-links {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
+.footer-section a:focus {
+  outline: 2px solid #ffffff;
+  outline-offset: 3px;
 }

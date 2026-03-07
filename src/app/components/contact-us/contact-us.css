@@ -73,7 +73,7 @@
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.info-content h4 {
+.info-content h3 {
   font-size: 1.1rem;
   font-weight: 700;
   color: var(--black-color);
